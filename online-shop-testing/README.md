@@ -6,14 +6,15 @@ A project to practice unit testing.
 Exercises
 ---------
 
-1. Create a test to check that addComment returns false when a comment form the same author already exists.
+_The practice exercise with the Number 9.x17 does not reference any exercise from the book, the others reference the numbers from Objects First with Java, 6th Edition listed below._
 
-2. create a test that performs negative testing on the boundaries of the rating range. That is, test the Values 0 and 6 as a rating - the values just outside the valid range. You will discover a bug, make sure that the test fails!
+**9.15** Create a test to check that addComment returns false when a comment from the same author already exists. 
 
-2. try to find the cause of the bug with a manual walkthrough and try to fix it.
+**9.16** Create a test that performs negative testing on the boundaries of the rating range. That is, test the values 0 and 6 as a rating (the values just outside the legal range). We expect these to return false, so assert false in the result dialog. You will notice that one of these actually (incorrectly) returns true. This is the bug we uncovered earlier in manual testing. Make sure that you assert false anyway. The assertion states the expected result, not the actual result.
 
-3. (for the bored)Create tests for SalesItem that test whether the findMostHelfulComment method works as expected.
-During your testing, you can use the Get button in the method result dialog to get the result object onto the object bench, which then allows you to make further method calls and add assertions for this object. This alows you to identify the comment object returned (e.g. by checking its author).
+**9.x17** If you find any bugs try to find the cause of the bug with a manual walkthrough and try to fix it.
+
+**9.19** Create tests for SalesItem that test whether the findMostHelpfulComment method works as expected. Note that this method returns a ­Comment object. During your testing, you can use the Get button in the method result dialog to get the result object onto the object bench, which then allows you to make further method calls and add assertions for this ­object.­ This ­allows ­you ­to ­identify ­the ­comment ­object ­returned­ (e.g.,  by­ checking ­its­ author).­ You­ can ­also­ assert ­that ­the­ result­ is ­null or not null, depending on what you expect.
 
 
 
