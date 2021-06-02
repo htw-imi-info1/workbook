@@ -1,8 +1,8 @@
-# Source Code for the Info1 Workbook
+# Source Code for the Info1 Workbook Chapter 10: Testing
 
-This repository is a collection of source code examples for addional exercises -
-mostly from the "Workbook" collection of Working Sheets for the Class
+This repository provides souorce is a collection of source code examples
+for the additional exercises given in the workbook for the class
 [Informatics 1 @ International Media and Informatics @ HTW Berlin](https://home.htw-berlin.de/~kleinen/classes/ss2021/info1/).
 
-Contents: 
-* Chapter 10: online-shop-testing
+Contents:
+* online-shop-testing
