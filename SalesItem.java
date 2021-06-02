@@ -10,7 +10,7 @@ import java.util.Iterator;
  * comments is here.
  * 
  * @author Michael Kölling and David J. Barnes
- * @version 0.1 (2011-07-31)
+ * @version 0.1 (2016.02.29)
  */
 public class SalesItem
 {
@@ -25,7 +25,7 @@ public class SalesItem
     {
         this.name = name;
         this.price = price;
-        comments = new ArrayList<Comment>();
+        comments = new ArrayList<>();
     }
 
     /**

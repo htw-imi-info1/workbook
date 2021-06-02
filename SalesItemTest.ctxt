@@ -17,4 +17,6 @@ comment4.text=\n\ Test\ that\ a\ comment\ using\ an\ illegal\ rating\ value\ is\
 comment5.params=
 comment5.target=void\ testInit()
 comment5.text=\n\ Test\ that\ a\ sales\ item\ is\ correctly\ initialised\ (name\ and\ price).\n
-numComments=6
+comment6.params=
+comment6.target=void\ addComment()
+numComments=7
