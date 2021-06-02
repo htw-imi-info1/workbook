@@ -1,4 +1,4 @@
-# Source Code for the Info1 Workbook Chapter 10: Testing
+# Source Code for the Info1 Workbook Chapter 09: Testing
 
 This repository provides souorce is a collection of source code examples
 for the additional exercises given in the workbook for the class
